@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Tripwise</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Destinos</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="destacado">
+        <h1>Descubre tus próximos destinos</h1>
+        <p>
+          ¿Estás buscando el lugar perfecto para tus próximas vacaciones? Aquí
+          te presentamos algunas de las mejores opciones de todo el mundo.
+        </p>
+        <a href="#" class="boton-destacado">Ver destinos</a>
+      </section>
+
+      <section class="destinos">
+        <h2>Destinos populares</h2>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="imagenes/destino1.jpg" alt="Destino 1" /><span
+                >Destino 1</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="imagenes/destino2.jpg" alt="Destino 2" /><span
+                >Destino 2</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="imagenes/destino3.jpg" alt="Destino 3" /><span
+                >Destino 3</span
+              ></a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="acerca-de">
+        <h2>Acerca de nosotros</h2>
+        <p>
+          Somos un equipo de expertos viajeros apasionados por descubrir los
+          lugares más increíbles del mundo. Nos encanta compartir nuestras
+          experiencias y recomendaciones para ayudarte a planificar tus próximas
+          aventuras.
+        </p>
+        <a href="#" class="boton-destacado">Conoce más</a>
+      </section>
+
+      <section class="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+
+          <button type="submit" class="boton-destacado">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Tripwise. Todos los derechos reservados.</p>
+    </footer>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
