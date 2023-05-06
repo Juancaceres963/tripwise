@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif; /*Tipo de letra*/
-    --color-primario: #8C52FF;
+    --color-primario: #7D5FD2;
 }
 a{
     text-decoration: none;
@@ -45,4 +45,20 @@ li{
     color: var(--color-primario);
     font-weight: 600;
     font-size: 24px;
+}
+/*Seccion de inicio*/
+.inicio{
+    
+    width: 100%;
+}
+.arte {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 550px;
+}
+.arte video{
+    object-fit: cover;  
+    width: 100%;
+    height:100%;
 }
