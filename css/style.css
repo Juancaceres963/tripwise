@@ -33,6 +33,12 @@ ul{
 .fondo-nav{
     height: 90px;
 }
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
 /* Clases */
 /* Navegador principal */
 .nav-principal{
@@ -92,7 +98,7 @@ ul{
 /* Seccion de cards */
 .cards {
     display: flex;
-    padding: 40px;
+    padding: 40px 0;
     justify-content: space-evenly;
 }
 .card{
