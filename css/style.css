@@ -113,7 +113,8 @@ ul{
     justify-content: space-evenly;
 }
 .tarjeta{
-    width: 300px;
+    width: 300px;  
+    height: 100%;
     border: 3px solid rgb(206, 206, 206);
     border-radius: 5px;
 }

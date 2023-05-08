@@ -39,23 +39,97 @@
       </div>
       <div class="cards padding">
         <div class="tarjeta">
-          <img src="./img/Compartir.png" alt="Imagen compartir">
+          <img src="./img/Compartir.png" alt="Imagen compartir" />
           <div class="texto-card">
-            <h3>Comparte tu historia</h3>
+            <h3>Comparte tu Historia</h3>
             <p>
               ¿Te encanta viajar y explorar nuevos lugares? Entonces comparte tu
               historia con nosotros y con otros viajeros. Cuéntanos sobre tus
-              aventuras, tus descubrimientos 
-              <span class="ocultar" id="contenido-oculto">, tus retos y tus éxitos. Comparte
-                tus fotos, tus videos, tus tips y tus recomendaciones. Así, podrás
-                ayudar a otros viajeros a planear su próximo viaje y a inspirarse
-                para vivir experiencias únicas.
-              </span> 
-              <button class="ver_mas" id="mostrar-contenido">...ver más.</button>
+              aventuras, tus descubrimientos
+              <span class="ocultar" id="oculto_compartir"
+                >, tus retos y tus éxitos. Comparte tus fotos, tus videos, tus
+                tips y tus recomendaciones. Así, podrás ayudar a otros viajeros
+                a planear su próximo viaje y a inspirarse para vivir
+                experiencias únicas.
+              </span>
+              <button class="ver_mas" id="ver_mas_compartir">
+                ...ver más.
+              </button>
             </p>
             <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
           </div>
         </div>
+        <!-- Cierre de tarjeta -->
+        <div class="tarjeta">
+          <img src="./img/Conectar.png" alt="Imagen conectar" />
+          <div class="texto-card">
+            <h3>Conecta con otros Viajeros</h3>
+            <p>
+              Viajar es una de las mejores formas de conocer a gente nueva y
+              hacer amigos de todo el mundo. En nuestra comunidad de viajeros
+              ,podrás conectarte con
+              <span class="ocultar" id="oculto_conectar">
+                otros que compartan tus intereses y tus pasiones. Podrás seguir
+                sus viajes, comentar en sus publicaciones, intercambiar ideas y
+                consejos, y hasta planear viajes juntos. ¡No hay mejor forma de
+                hacer amigos que viajando!
+              </span>
+
+              <button class="ver_mas" id="ver_mas_concectar">
+                ...ver más.
+              </button>
+            </p>
+            <a href="" type="button" class="btn btn-primary">Ir a Conectar</a>
+          </div>
+        </div>
+        <!-- Cierre de tarjeta -->
+        <div class="tarjeta">
+          <img src="./img/Encontrar.png" alt="Imagen Encontrar destino" />
+          <div class="texto-card">
+            <h3>Descubre tu proximo Destino</h3>
+            <p>
+              ¿Estás buscando un lugar nuevo y emocionante para explorar? ¡No
+              busques más! En nuestra sección de destinos, encontrarás una gran
+              variedad
+              <span class="ocultar" id="oculto_Encontrar">
+                de opciones para todos los gustos y presupuestos. Desde playas
+                paradisíacas hasta montañas nevadas, desde ciudades históricas
+                hasta pueblos pintorescos, tenemos algo para cada tipo de
+                viajero. Descubre lugares nuevos, aprende sobre diferentes
+                culturas, y empieza a planear tu próximo viaje hoy mismo.
+              </span>
+              <button class="ver_mas" id="ver_mas_encontrar">
+                ...ver más.
+              </button>
+            </p>
+            <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
+          </div>
+        </div>
+        <!-- Cierre de tarjeta -->
+        <div class="tarjeta">
+          <img src="./img/Tips.png" alt="Imagen compartir" />
+          <div class="texto-card">
+            <h3>Tips Viajeros imperdibles</h3>
+            <p>
+              Viajar puede ser emocionante y divertido, pero también puede ser
+              un poco abrumador y estresante. Por eso, en nuestra sección de
+              tips viajeros, encontrarás 
+              <span class="ocultar" id="oculto_tips">
+              una gran cantidad de consejos y
+              recomendaciones útiles para cada situación y destino. Desde cómo
+              empacar de forma eficiente hasta cómo encontrar los mejores
+              precios en vuelos y alojamiento, desde cómo evitar las multitudes
+              hasta cómo mantenerse seguro en el extranjero, tenemos todo lo que
+              necesitas para que tu próximo viaje sea inolvidable.
+              </span>
+              <button class="ver_mas" id="ver_mas_tips">
+                ...ver más.
+              </button>
+            </p>
+            <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
+          </div>
+        </div>
+        <!-- Cierre de tarjeta -->
       </div>
       <!--Cierre de cards-->
     </section>
@@ -126,66 +200,6 @@
 </html>
 
 <!--
-
-  <div class="card" style="width: 18rem">
-          <img src="./img/Compartir.png" class="card-img-top" alt="Imagen Compartir" />
-          <div class="card-body">
-            <h5 class="card-title">Comparte tu historia</h5>
-            <p class="card-text">
-              ¿Te encanta viajar y explorar nuevos lugares? Entonces comparte tu
-              historia con nosotros y con otros viajeros. Cuéntanos sobre tus
-              aventuras, tus descubrimientos 
-              <span style="display:none;" id="contenido-oculto">, tus retos y tus éxitos. Comparte
-                tus fotos, tus videos, tus tips y tus recomendaciones. Así, podrás
-                ayudar a otros viajeros a planear su próximo viaje y a inspirarse
-                para vivir experiencias únicas.
-              </span> 
-            </p>
-            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
-            <a href="#" class="btn btn-primary">Ir a Compartir</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem">
-          <img src="./img/Conectar.png" class="card-img-top" alt="Imagen Conectar" />
-          <div class="card-body">
-            <h5 class="card-title">Conecta con otros viajeros</h5>
-            <p class="card-text">
-              Viajar es una de las mejores formas de conocer a gente nueva y
-              hacer amigos de todo el mundo. En nuestra comunidad de viajeros,
-              podrás 
-              <span style="display:none;" id="contenido-oculto">
-                conectarte con otros que compartan tus intereses y
-                tus pasiones. Podrás seguir sus viajes, comentar en sus
-                publicaciones, intercambiar ideas y consejos, y hasta planear
-                viajes juntos. ¡No hay mejor forma de hacer amigos que viajando!
-              </span>
-            </p>
-            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
-            <a href="#" class="btn btn-primary">Ir a Conectar</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem">
-          <img src="./img/Encontrar.png" class="card-img-top" alt="Imagen Encontrar" />
-          <div class="card-body">
-            <h5 class="card-title">Descubre tu proximo destino</h5>
-            <p class="card-text">
-              ¿Estás buscando un lugar nuevo y emocionante para explorar? ¡No
-              busques más! En nuestra sección de destinos, encontrarás una gran
-              variedad 
-              <span style="display:none;" id="contenido-oculto">
-              de opciones para todos los gustos y presupuestos. Desde
-              playas paradisíacas hasta montañas nevadas, desde ciudades
-              históricas hasta pueblos pintorescos, tenemos algo para cada tipo
-              de viajero. Descubre lugares nuevos, aprende sobre diferentes
-              culturas, y empieza a planear tu próximo viaje hoy mismo.
-              </span>
-            </p>
-            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
-            <a href="#" class="btn btn-primary">Ir a Descubrir</a>
-          </div>
-        </div>
 
         <div class="card" style="width: 18rem">
           <img src="./img/Tips.png" class="card-img-top" alt="Imagen de Tips" />
