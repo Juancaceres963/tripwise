@@ -38,76 +38,24 @@
         ></video>
       </div>
       <div class="cards padding">
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Comparte tu historia</h5>
-            <p class="card-text">
+        <div class="tarjeta">
+          <img src="./img/Compartir.png" alt="Imagen compartir">
+          <div class="texto-card">
+            <h3>Comparte tu historia</h3>
+            <p>
               ¿Te encanta viajar y explorar nuevos lugares? Entonces comparte tu
               historia con nosotros y con otros viajeros. Cuéntanos sobre tus
-              aventuras, tus descubrimientos, 
-              <span style="display:none;" id="contenido-oculto">tus retos y tus éxitos. Comparte
+              aventuras, tus descubrimientos 
+              <span class="ocultar" id="contenido-oculto">, tus retos y tus éxitos. Comparte
                 tus fotos, tus videos, tus tips y tus recomendaciones. Así, podrás
                 ayudar a otros viajeros a planear su próximo viaje y a inspirarse
                 para vivir experiencias únicas.
               </span> 
+              <button class="ver_mas" id="mostrar-contenido">...ver más.</button>
             </p>
-            <button id="mostrar-contenido">ver mas</button>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
           </div>
         </div>
-        <!--Cierre de card-->
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Conecta con otros viajeros</h5>
-            <p class="card-text">
-              Viajar es una de las mejores formas de conocer a gente nueva y
-              hacer amigos de todo el mundo. En nuestra comunidad de viajeros,
-              podrás conectarte con otros viajeros que compartan tus intereses y
-              tus pasiones. Podrás seguir sus viajes, comentar en sus
-              publicaciones, intercambiar ideas y consejos, y hasta planear
-              viajes juntos. ¡No hay mejor forma de hacer amigos que viajando!
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <!--Cierre de card-->
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Descubre tu proximo destino</h5>
-            <p class="card-text">
-              ¿Estás buscando un lugar nuevo y emocionante para explorar? ¡No
-              busques más! En nuestra sección de destinos, encontrarás una gran
-              variedad de opciones para todos los gustos y presupuestos. Desde
-              playas paradisíacas hasta montañas nevadas, desde ciudades
-              históricas hasta pueblos pintorescos, tenemos algo para cada tipo
-              de viajero. Descubre lugares nuevos, aprende sobre diferentes
-              culturas, y empieza a planear tu próximo viaje hoy mismo.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <!--Cierre de card-->
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Tips viajeros</h5>
-            <p class="card-text">
-              Viajar puede ser emocionante y divertido, pero también puede ser
-              un poco abrumador y estresante. Por eso, en nuestra sección de
-              tips viajeros, encontrarás una gran cantidad de consejos y
-              recomendaciones útiles para cada situación y destino. Desde cómo
-              empacar de forma eficiente hasta cómo encontrar los mejores
-              precios en vuelos y alojamiento, desde cómo evitar las multitudes
-              hasta cómo mantenerse seguro en el extranjero, tenemos todo lo que
-              necesitas para que tu próximo viaje sea inolvidable.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <!--Cierre de card-->
       </div>
       <!--Cierre de cards-->
     </section>
@@ -176,3 +124,89 @@
     ></script>
   </body>
 </html>
+
+<!--
+
+  <div class="card" style="width: 18rem">
+          <img src="./img/Compartir.png" class="card-img-top" alt="Imagen Compartir" />
+          <div class="card-body">
+            <h5 class="card-title">Comparte tu historia</h5>
+            <p class="card-text">
+              ¿Te encanta viajar y explorar nuevos lugares? Entonces comparte tu
+              historia con nosotros y con otros viajeros. Cuéntanos sobre tus
+              aventuras, tus descubrimientos 
+              <span style="display:none;" id="contenido-oculto">, tus retos y tus éxitos. Comparte
+                tus fotos, tus videos, tus tips y tus recomendaciones. Así, podrás
+                ayudar a otros viajeros a planear su próximo viaje y a inspirarse
+                para vivir experiencias únicas.
+              </span> 
+            </p>
+            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
+            <a href="#" class="btn btn-primary">Ir a Compartir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/Conectar.png" class="card-img-top" alt="Imagen Conectar" />
+          <div class="card-body">
+            <h5 class="card-title">Conecta con otros viajeros</h5>
+            <p class="card-text">
+              Viajar es una de las mejores formas de conocer a gente nueva y
+              hacer amigos de todo el mundo. En nuestra comunidad de viajeros,
+              podrás 
+              <span style="display:none;" id="contenido-oculto">
+                conectarte con otros que compartan tus intereses y
+                tus pasiones. Podrás seguir sus viajes, comentar en sus
+                publicaciones, intercambiar ideas y consejos, y hasta planear
+                viajes juntos. ¡No hay mejor forma de hacer amigos que viajando!
+              </span>
+            </p>
+            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
+            <a href="#" class="btn btn-primary">Ir a Conectar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/Encontrar.png" class="card-img-top" alt="Imagen Encontrar" />
+          <div class="card-body">
+            <h5 class="card-title">Descubre tu proximo destino</h5>
+            <p class="card-text">
+              ¿Estás buscando un lugar nuevo y emocionante para explorar? ¡No
+              busques más! En nuestra sección de destinos, encontrarás una gran
+              variedad 
+              <span style="display:none;" id="contenido-oculto">
+              de opciones para todos los gustos y presupuestos. Desde
+              playas paradisíacas hasta montañas nevadas, desde ciudades
+              históricas hasta pueblos pintorescos, tenemos algo para cada tipo
+              de viajero. Descubre lugares nuevos, aprende sobre diferentes
+              culturas, y empieza a planear tu próximo viaje hoy mismo.
+              </span>
+            </p>
+            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
+            <a href="#" class="btn btn-primary">Ir a Descubrir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./img/Tips.png" class="card-img-top" alt="Imagen de Tips" />
+          <div class="card-body">
+            <h5 class="card-title">Tips viajeros</h5>
+            <p class="card-text">
+              Viajar puede ser emocionante y divertido, pero también puede ser
+              un poco abrumador y estresante. Por eso, en nuestra sección de
+              tips viajeros, encontrarás 
+              <span style="display:none;" id="contenido-oculto">
+                una gran cantidad de consejos y
+              recomendaciones útiles para cada situación y destino. Desde cómo
+              empacar de forma eficiente hasta cómo encontrar los mejores
+              precios en vuelos y alojamiento, desde cómo evitar las multitudes
+              hasta cómo mantenerse seguro en el extranjero, tenemos todo lo que
+              necesitas para que tu próximo viaje sea inolvidable.
+              </span>
+            </p>
+            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+-->

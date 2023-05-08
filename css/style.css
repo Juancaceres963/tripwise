@@ -39,6 +39,17 @@ ul{
 .mostrar{
     display: block;
 }
+.ver_mas{
+    border: none;
+    background-color: white;
+    color: var(--color-primario);
+    transition: all ease .2s;
+}
+.ver_mas:hover{
+    transition: all ease .2s;
+    cursor: pointer;
+    color: blue;
+}
 /* Clases */
 /* Navegador principal */
 .nav-principal{
@@ -101,6 +112,15 @@ ul{
     padding: 40px 0;
     justify-content: space-evenly;
 }
-.card{
-    z-index: -1;
+.tarjeta{
+    width: 300px;
+    border: 3px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+.texto-card{
+    padding: 20px;
+}
+.tarjeta img {
+    width: 100%;
+    border-bottom: 3px solid rgb(206, 206, 206);
 }
