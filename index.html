@@ -19,44 +19,76 @@
         <img src="./img/tripwise logo.png" alt="Imagen Logo" />
         <nav>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Destinos</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#inicio">Home</a></li>
+            <li><a href="#nosotros">About us</a></li>
+            <li><a href="#modulos">Discover</a></li>
+            <li><a href="#contacto">Contact</a></li>
           </ul>
         </nav>
       </div>
       <!--Navbar verticar pantalla pequeña-->
       <nav class="navbar fixed-top navbar_lateral padding">
         <div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">tripwise</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                tripwise
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#inicio">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#nosotros">About us</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  Discover
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#modulos">Share</a></li>
                     <li>
-                      <hr class="dropdown-divider">
+                      <a class="dropdown-item" href="#modulos">Connect</a>
                     </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#modulos">Discover</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#modulos">Tips</a>
+                    </li>
                   </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contact</a>
                 </li>
               </ul>
             </div>
@@ -66,7 +98,7 @@
     </header>
     <!--Cierre del Navbar-->
     <div class="fondo-nav"></div>
-    <section class="inicio">
+    <section class="inicio" id="inicio">
       <div class="arte">
         <video
           src="./img/tripwise-video.mp4"
@@ -76,128 +108,128 @@
       </div>
     </section>
     <!--Cierre de la Seccion de Inicio-->
-    <section class="nosotros">
+    <section class="nosotros" id="nosotros">
       <div class="contenedor_texto">
-        <h1 class="encabezado">How or what is <span>tripwise</span> ?</h1>
-        <h2 class="encabezado">Nuestros principios y creencias</h2>
+        <h1 class="encabezado">What or who is <span>tripwise</span> ?</h1>
+        <h2 class="encabezado">Our principles and beliefs</h2>
         <div class="texto_nosotros">
           <p>
-            En Tripwise creemos que no hay nada más valioso que las experiencias
-            de viaje. Ya sea que seas un viajero aventurero con innumerables
-            historias para compartir, o un turista en busca del destino perfecto
-            para tus próximas vacaciones, en nuestra red social encontrarás un
-            espacio para compartir, descubrir y conectar con otros apasionados de
-            los viajes.
+            At Tripwise we believe that there is nothing more valuable than
+            travel experiences. Whether you are an adventurous traveler with
+            countless stories to share, or a tourist looking for the perfect
+            destination for your next vacation, on our social network you will
+            find a space to share, discover and connect with other travel
+            enthusiasts.
           </p>
           <p>
-            En Tripwise, no importa si eres un viajero experimentado o si estás
-            planeando tu primera gran aventura: aquí todos tienen un lugar. Puedes
-            compartir tus historias, aconsejar a otros sobre los mejores destinos
-            y descubrir nuevas formas de vivir el mundo. Además, si eres de los
-            viajeros aventureros que ya han recorrido muchos lugares, en nuestra
-            plataforma podrás ganar dinero y popularidad compartiendo tus
-            experiencias con otros miembros.
+            Here at Tripwise, it doesn't matter if you're a seasoned traveler or
+            planning your first big adventure: everyone has a place here. You
+            can share your stories, advise others on the best destinations and
+            discover new ways to experience the world. Also, if you are one of
+            the adventurous travelers who have already traveled many places, on
+            our platform you can earn money and popularity by sharing your
+            experiences with other members.
           </p>
           <p>
-            Nuestra misión es hacer que cada viaje sea una experiencia
-            inolvidable. Por eso, en Tripwise estamos comprometidos en ofrecer una
-            plataforma amigable, segura y fácil de usar para que puedas conectarte
-            con otros viajeros, aprender de sus experiencias y encontrar la
-            inspiración que necesitas para planificar tus próximas aventuras.
+            Our mission is to make every trip an unforgettable experience.
+            That's why at Tripwise we are committed to offering a friendly,
+            secure, and easy-to-use platform for you to connect with other
+            travelers, learn from their experiences, and find the inspiration
+            you need to plan your next adventures.
           </p>
         </div>
       </div>
     </section>
-    <section>
-      <h1 class="encabezado">Comparte, Descubre y Conecta</h1>
+    <section id="modulos">
+      <h1 class="encabezado">Share, Discover and Connect</h1>
       <div class="cards padding">
         <div class="tarjeta">
           <img src="./img/Compartir.png" alt="Imagen compartir" />
           <div class="texto-card">
-            <h3>Comparte tu Historia</h3>
+            <h3>Share your story</h3>
             <p>
-              ¿Te encanta viajar y explorar nuevos lugares? Entonces comparte tu
-              historia con nosotros y con otros viajeros. Cuéntanos sobre tus
-              aventuras, tus 
+              Do you love to travel and explore new places? then share your
+               history with us and with other travelers. tell us about your
+               adventures, your discoveries,
               <span class="ocultar" id="oculto_compartir"
-                >descubrimientos , tus retos y tus éxitos. Comparte tus fotos, tus videos, tus
-                tips y tus recomendaciones. Así, podrás ayudar a otros viajeros
-                a planear su próximo viaje y a inspirarse para vivir
-                experiencias únicas.
+                > your challenges and your successes. Share your photos,
+                your videos, your tips and your recommendations. Thus, you can help
+                other travelers to plan their next trip and to be inspired to
+                live unique experiences.
               </span>
               <button class="ver_mas" id="ver_mas_compartir">
-                ...ver más.
+                ...see more.
               </button>
             </p>
-            <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
+            <a href="" type="button" class="btn btn-primary">Go to Share</a>
           </div>
         </div>
         <!-- Cierre de tarjeta -->
         <div class="tarjeta">
           <img src="./img/Conectar.png" alt="Imagen conectar" />
           <div class="texto-card">
-            <h3>Conecta con otros Viajeros</h3>
+            <h3>Connect with other Travelers</h3>
             <p>
-              Viajar es una de las mejores formas de conocer a gente nueva y
-              hacer amigos de todo el mundo. En nuestra comunidad de viajeros
-              ,podrás conectarte 
+              Traveling is one of the best ways to meet new people and
+               make friends from all over the world. In our community of travelers
+               you can connect
               <span class="ocultar" id="oculto_conectar">
-                con otros que compartan tus intereses y tus pasiones. Podrás seguir
-                sus viajes, comentar en sus publicaciones, intercambiar ideas y
-                consejos, y hasta planear viajes juntos. ¡No hay mejor forma de
-                hacer amigos que viajando!
+                with others who share your interests and passions. You can
+                 follow their travels, comment on their posts, exchange
+                 ideas and advice, and even plan trips together. There is nothing better
+                 way to make friends than traveling!
               </span>
 
               <button class="ver_mas" id="ver_mas_concectar">
-                ...ver más.
+                ...see more.
               </button>
             </p>
-            <a href="" type="button" class="btn btn-primary">Ir a Conectar</a>
+            <a href="" type="button" class="btn btn-primary">Go to connect</a>
           </div>
         </div>
         <!-- Cierre de tarjeta -->
         <div class="tarjeta">
           <img src="./img/Encontrar.png" alt="Imagen Encontrar destino" />
           <div class="texto-card">
-            <h3>Descubre tu proximo Destino</h3>
+            <h3>Discover your next destination</h3>
             <p>
-              ¿Estás buscando un lugar nuevo y emocionante para explorar? ¡No
-              busques más! En nuestra sección de destinos, encontrarás una gran
-              
+              Are you looking for a new and exciting place to explore? No
+               look for more! In our destinations section, you will find a great
               <span class="ocultar" id="oculto_Encontrar">
-                variedad de opciones para todos los gustos y presupuestos. Desde playas
-                paradisíacas hasta montañas nevadas, desde ciudades históricas
-                hasta pueblos pintorescos, tenemos algo para cada tipo de
-                viajero. Descubre lugares nuevos, aprende sobre diferentes
-                culturas, y empieza a planear tu próximo viaje hoy mismo.
+                variety of options for all tastes and budgets. From
+                 paradisiacal beaches to snow-capped mountains, from cities
+                 historic to quaint towns, we have something for everyone.
+                 type of traveler Discover new places, learn about
+                 different cultures, and start planning your next trip today
+                 same.
               </span>
               <button class="ver_mas" id="ver_mas_encontrar">
-                ...ver más.
+                ...see more.
               </button>
             </p>
-            <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
+            <a href="" type="button" class="btn btn-primary">Go to Share</a>
           </div>
         </div>
         <!-- Cierre de tarjeta -->
         <div class="tarjeta">
           <img src="./img/Tips.png" alt="Imagen compartir" />
           <div class="texto-card">
-            <h3>Tips Viajeros imperdibles</h3>
+            <h3>Unmissable Traveler Tips</h3>
             <p>
-              Viajar puede ser emocionante y divertido, pero también puede ser
-              un poco abrumador y estresante. Por eso, en nuestra sección de
-              tips viajeros, puedes
+              Traveling can be exciting and fun, but it can also be
+               a bit overwhelming and stressful. For this reason, in our section of
+               travel tips, you can
               <span class="ocultar" id="oculto_tips">
-                encontrar una gran cantidad de consejos y recomendaciones útiles para cada
-                situación y destino. Desde cómo empacar de forma eficiente hasta
-                cómo encontrar los mejores precios en vuelos y alojamiento,
-                desde cómo evitar las multitudes hasta cómo mantenerse seguro en
-                el extranjero, tenemos todo lo que necesitas para que tu próximo
-                viaje sea inolvidable.
+                find a lot of useful tips and recommendations
+                 for each situation and destination. From how to pack
+                 efficient to how to find the best prices on flights and
+                 accommodation, from how to avoid the crowds to how
+                 stay safe abroad, we have everything you
+                 you need to make your next trip unforgettable.
               </span>
-              <button class="ver_mas" id="ver_mas_tips">...ver más.</button>
+              <button class="ver_mas" id="ver_mas_tips">...see more.</button>
             </p>
-            <a href="" type="button" class="btn btn-primary">Ir a Compartir</a>
+            <a href="" type="button" class="btn btn-primary">Go to Share</a>
           </div>
         </div>
         <!-- Cierre de tarjeta -->
@@ -258,7 +290,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contacto">
       <p>&copy; 2023 Tripwise. Todos los derechos reservados.</p>
     </footer>
     <script src="./js/script.js"></script>
@@ -269,29 +301,3 @@
     ></script>
   </body>
 </html>
-
-<!--
-
-        <div class="card" style="width: 18rem">
-          <img src="./img/Tips.png" class="card-img-top" alt="Imagen de Tips" />
-          <div class="card-body">
-            <h5 class="card-title">Tips viajeros</h5>
-            <p class="card-text">
-              Viajar puede ser emocionante y divertido, pero también puede ser
-              un poco abrumador y estresante. Por eso, en nuestra sección de
-              tips viajeros, encontrarás 
-              <span style="display:none;" id="contenido-oculto">
-                una gran cantidad de consejos y
-              recomendaciones útiles para cada situación y destino. Desde cómo
-              empacar de forma eficiente hasta cómo encontrar los mejores
-              precios en vuelos y alojamiento, desde cómo evitar las multitudes
-              hasta cómo mantenerse seguro en el extranjero, tenemos todo lo que
-              necesitas para que tu próximo viaje sea inolvidable.
-              </span>
-            </p>
-            <button class="ver_mas" id="mostrar-contenido">...ver mas</button>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
--->

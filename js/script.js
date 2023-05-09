@@ -7,9 +7,9 @@ verMasCompartir.addEventListener('click', function (){
     ocultoCompartir.classList.toggle('mostrar');
 
     if(ocultoCompartir.classList.contains('mostrar')){
-        verMasCompartir.innerHTML = 'ver menos.';
+        verMasCompartir.innerHTML = 'see less.';
     } else {
-        verMasCompartir.innerHTML = '...ver más';
+        verMasCompartir.innerHTML = '...see more.';
     }
 });
 
@@ -24,9 +24,9 @@ verMasConectar.addEventListener('click', function (){
     ocultoConectar.classList.toggle('mostrar');
 
     if(ocultoConectar.classList.contains('mostrar')){
-        verMasConectar.innerHTML = 'ver menos.';
+        verMasConectar.innerHTML = 'see less.';
     } else {
-        verMasConectar.innerHTML = '...ver más';
+        verMasConectar.innerHTML = '...see more.';
     }
 });
 
@@ -39,9 +39,9 @@ verMasEncontar.addEventListener('click', function (){
     ocultoEncontrar.classList.toggle('mostrar');
 
     if(ocultoEncontrar.classList.contains('mostrar')){
-        verMasEncontar.innerHTML = 'ver menos.';
+        verMasEncontar.innerHTML = 'see less.';
     } else {
-        verMasEncontar.innerHTML = '...ver más';
+        verMasEncontar.innerHTML = '...see more.';
     }
 });
 
@@ -54,8 +54,8 @@ verMasTips.addEventListener('click', function (){
     ocultoTips.classList.toggle('mostrar');
 
     if(ocultoTips.classList.contains('mostrar')){
-        verMasTips.innerHTML = 'ver menos.';
+        verMasTips.innerHTML = 'see less.';
     } else {
-        verMasTips.innerHTML = '...ver más';
+        verMasTips.innerHTML = '...see more.';
     }
 });
