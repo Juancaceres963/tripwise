@@ -63,6 +63,9 @@ ul{
         padding: 0px 40px;
     }
 }
+.separador {
+    width: 150px;
+}
 /* Clases */
 /* Navegador principal */
 .nav-principal{
@@ -78,16 +81,21 @@ ul{
 }
 .nav-principal nav ul{
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
 .nav-principal nav ul li a{
     text-transform: uppercase;
     color: var(--color-primario);
     font-weight: 600;
     font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transform-origin: all ease .2s;
 }
 .nav-principal nav ul li a:hover{
-    color: blue;
+    background-color: var(--color-primario);
+    color: white;
+    transition: all ease .2s;
 }
 @media only screen and (max-width: 745px) {
     .nav-principal nav ul{
@@ -101,7 +109,7 @@ ul{
 }
 @media only screen and (min-width: 1400px) {
     .nav-principal nav ul li a{
-        font-size: 22px;
+        font-size: 22px;    
     }
 }
 /* Navbar Hambuguesa desplegable */
@@ -146,6 +154,11 @@ ul{
     height:100%;
     pointer-events: none;
 }
+@media only screen and (max-width:745px) {
+    .arte {
+        height: 80%;
+    }
+}
 /* Quienes somos */
 .nosotros{
     width: 100%;
@@ -164,6 +177,11 @@ ul{
     background-color: rgba(230, 223, 223, 0.829);
     border-radius: 5px;
     border: 2px solid rgb(206, 206, 206);
+}
+@media only screen and (max-width:745px) {
+    .texto_nosotros {
+        padding: 30px 20px;
+    }
 }
 /* Seccion de cards */
 .cards {
