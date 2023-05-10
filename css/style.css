@@ -64,7 +64,7 @@ ul{
     align-items: center;
 }
 .primera_letra{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 120%;
     padding-left: 15px;
 }
@@ -261,6 +261,7 @@ ul{
     justify-content: center;
     align-items: center;
     padding: 0 40px;
+    pointer-events: none;
   }
   .publicidad::before {
     content: "";
