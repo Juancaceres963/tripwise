@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif; /*Tipo de letra*/
     --color-primario: #7D5FD2;
+    --color-borde-tarjetas: rgb(206, 206, 206);
 }
 a{
     text-decoration: none;
@@ -160,15 +161,15 @@ ul{
     }
 }
 /* Quienes somos */
-.nosotros{
+.seccion{
     width: 100%;
     height: 100%;
-    padding: 80px 0;
+    padding: 60px 0 20px 0;
 }
-.nosotros h1 span{
+.seccion h1 span{
     font-weight: bolder;
 }
-.nosotros h2{
+.seccion h2{
     font-size: 26px;
     margin: 30px 0;
 }
@@ -194,7 +195,7 @@ ul{
 .tarjeta{
     width: 250px;  
     height: 100%;
-    border: 3px solid rgb(206, 206, 206);
+    border: 3px solid var(--color-borde-tarjetas);
     border-radius: 5px;
     transition: all ease .2s;
 }
@@ -217,7 +218,7 @@ ul{
     width: 100%;
     height: 240px;
     object-fit: cover;
-    border-bottom: 3px solid rgb(206, 206, 206);
+    border-bottom: 3px solid ;
     transition: all ease 0.4s;
     padding: 10px;
     background-color: var(--color-primario)
@@ -273,4 +274,36 @@ ul{
       .contenido-publicidad h2{
           font-size: 1.5rem;
       }
-    }
+}
+/*Seccion de destacados */
+.lugares{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.lugar{
+    border: 2px solid var(--color-borde-tarjetas);
+    border-radius: 5px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    transition: all ease .2s;
+}
+.lugar:hover{
+    transition: all ease .2s;
+    box-shadow: 0px 0px 20px 1px;
+}
+.lugar img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+.lugar .contenido_texto h3{
+    width: 100%;
+    border-bottom: 4px solid var(--color-primario);
+}
