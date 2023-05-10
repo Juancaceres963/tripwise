@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif; /*Tipo de letra*/
     --color-primario: #7D5FD2;
+    --color-secundario: rgb(110, 146, 247);
     --color-borde-tarjetas: rgb(206, 206, 206);
 }
 a{
@@ -79,7 +80,14 @@ ul{
 .boton {
     position: relative;
     border: 2px solid var(--color-primario);
-    
+}
+.boton_claro{
+    border: 2px solid var(--color-secundario);
+    color: var(--color-secundario)!important;
+}
+.boton_claro:hover{
+    color: white!important;
+    background-color: var(--color-secundario)!important;
 }
 /* Clases */
 /* Navegador principal */
@@ -178,7 +186,10 @@ ul{
 .seccion{
     width: 100%;
     height: 100%;
-    padding: 60px 0 20px 0;
+    padding: 60px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .seccion h1 span{
     font-weight: bolder;
@@ -347,6 +358,11 @@ ul{
     padding: 50px;
     color: white;
 }
+@media only screen and (max-width:745px){
+    .caja{
+        flex-direction: column;
+    }
+}
 .caja img {
     width: 200px;
     height: 100%;
@@ -362,3 +378,70 @@ ul{
     padding: 10px 0;
     font-weight: 600;
 }
+/* Paginas externas */
+/* Contacto */
+.contenedor-form {
+    max-width: 800px;
+    padding: 0 50px;
+  }
+  .contacto legend {
+    padding: 0 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #585858;
+  }
+  .contacto p {
+    font-size: 1.4rem;
+    color: #333333;
+    margin: 0;
+  }
+  .contacto p:last-of-type {
+    margin-top: 2rem;
+  }
+  label {
+    display: block;
+    text-transform: uppercase;
+    padding-left: 15px;
+  }
+  input:not([type="submit"]),
+  select,
+  textarea {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e8e1ff9d;
+    margin-bottom: 2rem;
+    border: 2px solid  var(--color-borde-tarjetas);
+    border-radius: 1rem;
+    }
+  .text-area {
+    margin-bottom: 15px;
+  }
+  input[type="radio"]{
+    margin: 0;
+  }
+  .forma-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 30rem;
+  }
+  .forma-contacto label {
+    width: 100%;
+  }
+  select {
+    --webkit-appearance: none;
+    appearance: none ;
+  }
+  @media only screen and (max-width: 768px) {
+    .contacto legend {
+      font-size: 1.5rem;
+    }
+    label {
+      font-size: .9rem;
+    }
+    .contacto p {
+      padding: 0 15px;
+      font-size: 1.2rem;
+    }
+  }
