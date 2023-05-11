@@ -64,3 +64,17 @@ linksLateral.forEach(link => {
     window.scrollTo({ top: finalPosition, behavior: 'smooth' });
   });
 });
+
+// Boton de Alerta para cargar los datos que fueron administrados correctamente 
+
+const boton_share = document.getElementById('boton_share');
+
+boton_share.addEventListener('click', e => {
+  e.preventDefault();
+  Swal.fire(
+    'Good job!',
+    'You clicked the button!',
+    'success'
+  )
+  console.log('Click')
+})
